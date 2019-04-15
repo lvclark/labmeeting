@@ -1,5 +1,6 @@
 # estimate Q_ST
 library(lme4)
+library(qqman)
 
 # get data for random effects models, from before
 load("170206phenotype_analysis.RData")
